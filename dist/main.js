@@ -1,7 +1,7 @@
 "use strict";
 const BOARD_SIZE = 8;
 const FILES = ["A", "B", "C", "D", "E", "F", "G", "H"];
-const HIGHLIGHT_MS = 800;
+const HIGHLIGHT_MS = 400;
 const board = document.getElementById("board");
 if (board) {
     for (let row = 0; row < BOARD_SIZE; row++) {
